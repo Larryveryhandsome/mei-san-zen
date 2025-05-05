@@ -293,6 +293,17 @@ footer {
     margin-top: 3rem;
 }
 
+.map-container {
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+    border-radius: 10px;
+}
+
 /* 響應式設計 */
 @media (max-width: 768px) {
     .nav-links {
@@ -310,5 +321,9 @@ footer {
     
     .gallery-grid {
         grid-template-columns: 1fr;
+    }
+
+    .map-container {
+        margin: 1rem;
     }
 } 
