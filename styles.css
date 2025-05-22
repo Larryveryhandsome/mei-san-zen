@@ -269,6 +269,40 @@ main {
     margin-top: 2rem;
 }
 
+.contact-person {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.contact-details h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-details p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
 .map-link {
     display: inline-block;
     margin-top: 1rem;
